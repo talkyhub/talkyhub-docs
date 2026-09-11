@@ -1,0 +1,27 @@
+{
+  "version": "2026-09-10",
+  "sections": {
+    "start": {
+      "overview": "/docs/start"
+    },
+    "channels": {
+      "overview": "/docs/channels"
+    },
+    "guides": {
+      "conversations": "/docs/guides/conversations",
+      "contacts": "/docs/guides/contacts",
+      "billing": "/docs/guides/billing"
+    },
+    "integration": {
+      "overview": "/docs/integration/overview",
+      "webhooks": "/docs/integration/webhooks"
+    },
+    "faq": "/docs/faq",
+    "legal": {
+      "public_offer": "/docs/legal/public_offer",
+      "privacy_policy": "/docs/legal/privacy_policy",
+      "terms_of_use": "/docs/legal/terms_of_use",
+      "personal_data_consent": "/docs/legal/personal_data_consent"
+    }
+  }
+}
