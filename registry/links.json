@@ -5,7 +5,8 @@
       "overview": "/docs/start"
     },
     "channels": {
-      "overview": "/docs/channels"
+      "overview": "/docs/channels",
+      "add": "/docs/channels/add-channel"
     },
     "guides": {
       "conversations": "/docs/guides/conversations",

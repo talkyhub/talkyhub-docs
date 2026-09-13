@@ -51,5 +51,6 @@ Poll — TalkyHub walks you through it in the UI.
 
 ## What's next
 
+- [How to add a channel](./add-channel.md)
 - [Working with conversations](../guides/conversations.md)
 - [Contacts and enrichment](../guides/contacts.md)
