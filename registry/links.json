@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-10",
+  "version": "2026-10-18",
   "sections": {
     "start": {
       "overview": "/docs/start"
@@ -18,6 +18,9 @@
       "webhooks": "/docs/integration/webhooks"
     },
     "faq": "/docs/faq",
+    "changelog": {
+      "app": "/docs/changelog/app"
+    },
     "legal": {
       "public_offer": "/docs/legal/public_offer",
       "privacy_policy": "/docs/legal/privacy_policy",

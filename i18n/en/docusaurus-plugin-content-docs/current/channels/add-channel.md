@@ -11,7 +11,7 @@ channel type, fill in a short form, and requests from it start landing in your
 shared conversation list. This page explains how the add-channel wizard works,
 what each type needs, and how to configure a channel after it's connected.
 
-:::note Who can connect channels
+:::note[Who can connect channels]
 Only workspace **administrators** can add and configure channels. Agents can see
 the channel list, but the connect form is disabled for them.
 :::
@@ -45,7 +45,7 @@ What each channel needs:
 | **WhatsApp** | An account with a provider (360dialog / Twilio) | Through the provider's embedded signup |
 | **API** | — (optionally a webhook URL) | A custom channel for any network TalkyHub doesn't support natively |
 
-:::tip The inbox name is optional
+:::tip[The inbox name is optional]
 The **Inbox name** field is optional — leave it empty and TalkyHub fills in a
 sensible name (e.g. the bot's @username). The name is only shown to your team and
 can be changed anytime.

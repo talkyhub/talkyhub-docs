@@ -1,0 +1,34 @@
+{
+  "sidebar.tutorialSidebar.category.Каналы": {
+    "message": "Channels",
+    "description": "The label for category 'Каналы' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Сценарии использования": {
+    "message": "Guides",
+    "description": "The label for category 'Сценарии использования' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Интеграция с API": {
+    "message": "API integration",
+    "description": "The label for category 'Интеграция с API' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Что нового": {
+    "message": "What's new",
+    "description": "The label for category 'Что нового' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Что нового.link.generated-index.title": {
+    "message": "What's new",
+    "description": "The generated-index page title for category 'Что нового' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Что нового.link.generated-index.description": {
+    "message": "Changes to TalkyHub, one page per component.",
+    "description": "The generated-index page description for category 'Что нового' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Юридические документы": {
+    "message": "Legal documents",
+    "description": "The label for category 'Юридические документы' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Юридические документы.link.generated-index.title": {
+    "message": "Legal documents",
+    "description": "The generated-index page title for category 'Юридические документы' in sidebar 'tutorialSidebar'"
+  }
+}

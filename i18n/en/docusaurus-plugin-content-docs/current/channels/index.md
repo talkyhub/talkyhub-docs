@@ -26,7 +26,7 @@ When connecting, provide:
 | SMTP host and port | Outgoing mail server (e.g. `smtp.example.com:465`, SSL) |
 | Login and password | Mailbox credentials (or an app password) |
 
-:::tip One mailbox — one channel
+:::tip[One mailbox — one channel]
 Don't connect the same mailbox to more than one channel: two channels would poll
 the same IMAP folder at once and duplicate conversations. TalkyHub warns you when
 you try to create a second channel on the same mailbox.

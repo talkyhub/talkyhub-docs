@@ -22,7 +22,7 @@ These endpoints are called by the platforms themselves, not by your code.
 - **Fiscalization** — the receipt status arrives from the fiscal data operator
   and is matched to the payment.
 
-:::warning Authenticity checks
+:::warning[Authenticity checks]
 Webhook service endpoints are available without authorization, but every
 notification is verified: payment ones by token/signature, channel ones by the
 platform's identifiers. Invalid requests are rejected.

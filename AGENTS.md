@@ -21,6 +21,13 @@ engine lives in `talkyhub-docs-site` and pulls this content at build time.
 - Legal docs are adapted templates — treat substantive legal text as draft
   until reviewed by a lawyer; don't invent binding terms.
 
+## Generated pages — don't edit
+- `docs/changelog/app.md` and `i18n/en/…/changelog/app.md` are pushed here by `talkyhub-web-app` CI after each
+  release (source: that repo's `docs/changelog/{ru,en}.md`). Edits here are overwritten — change the source.
+- `docs/changelog/api.md` (+ en) will come the same way from `threadhub-api`; when it lands, add
+  `"api": "/docs/changelog/api"` under `sections.changelog` in `registry/links.json`.
+- `docs/changelog/_category_.json` (section label/position) is hand-maintained here.
+
 ## Brand
 - Tone: plain Russian, concrete.
 - Product: TalkyHub — платформа для общения с клиентами (омниканальная

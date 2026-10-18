@@ -18,6 +18,7 @@ talkyhub-docs/
 │  ├─ guides/                # диалоги, контакты, оплата
 │  ├─ integration/           # обзор API, вебхуки
 │  ├─ faq.md
+│  ├─ changelog/             # «Что нового» — СГЕНЕРИРОВАНО CI, руками не править (см. ниже)
 │  └─ legal/                 # оферта, политика, условия, согласие
 ├─ i18n/en/                  # английские переводы (кроме legal)
 ├─ registry/links.json       # карта ссылок для внешних потребителей
@@ -30,6 +31,25 @@ talkyhub-docs/
 2. Синхронизируете `registry/links.json` при изменении структуры/маршрутов.
 3. Пуш в ветку `production` → `trigger.yml` отправляет `repository_dispatch`
    (`docs-update`) в `talkyhub-docs-site`, и сайт пересобирается.
+
+## «Что нового» (changelog)
+
+Раздел `docs/changelog/` (+ зеркало в `i18n/en/…/changelog/`) **публикует CI** продуктовых репозиториев —
+сюда страницы не пишут руками, следующий релиз их перезапишет:
+
+| Страница | Маршрут | Источник | Ключ реестра |
+|---|---|---|---|
+| `app.md` — веб-приложение | `/docs/changelog/app` | `talkyhub-web-app`: `docs/changelog/{ru,en}.md` → job `publish-changelog` | `changelog.app` |
+| `api.md` — API (позже) | `/docs/changelog/api` | `threadhub-api`: тот же механизм | `changelog.api` |
+
+CI коммитит в ветку `production` → `trigger.yml` → сайт пересобирается. Приложение показывает страницу в панели
+«Помощь» по ключу реестра; ссылка «Изменения API» появится в приложении сама, как только в
+`registry/links.json` добавят `changelog.api`.
+
+Чтобы подключить changelog API: в `threadhub-api` завести `docs/changelog/{ru,en}.md` (формат — как у
+приложения, см. `talkyhub-web-app/docs/changelog/README.md`), job, который копирует их в
+`docs/changelog/api.md` и `i18n/en/…/changelog/api.md` (секрет с правом записи в этот репозиторий), и добавить
+`"api": "/docs/changelog/api"` в `sections.changelog` реестра. `sidebar_position`: приложение — 1, API — 2.
 
 ## Настройка
 

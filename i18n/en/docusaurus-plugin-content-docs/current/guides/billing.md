@@ -22,7 +22,7 @@ is enough — the rest of the details are pulled automatically from open registr
 After that an invoice with a QR code becomes available for payment via internet
 banking (T-Bank B2B).
 
-:::note Details first
+:::note[Details first]
 The invoice option appears only after the billing details are filled in. Until
 then, online payment is available.
 :::
