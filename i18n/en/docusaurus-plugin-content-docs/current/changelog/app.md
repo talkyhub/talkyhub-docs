@@ -8,6 +8,15 @@ sidebar_position: 1
 
 Changes to the TalkyHub web app (app.talkyhub.ru), newest first.
 
+## 1.2.0 — 2026-10-25
+
+### Changed
+
+- **The website widget preview is the real widget.** In the website channel settings the preview shows the
+  same widget your visitors will see, and updates as you edit colours, texts, pre-chat fields, links and the
+  greeting. Switch between desktop and phone, open and close the chat, try the pre-chat form.
+- After you create a website channel, the screen with the embed snippet shows how the widget will look on your site.
+
 ## 1.1.0 — 2026-10-25
 
 ### Added
