@@ -8,6 +8,26 @@ sidebar_position: 1
 
 Changes to the TalkyHub web app (app.talkyhub.ru), newest first.
 
+## 1.1.0 — 2026-10-25
+
+### Added
+
+- **Avito (beta)** — connect an Avito account with its API keys and answer buyers from TalkyHub. The
+  conversation shows the listing: photo, title, price and status ("Sold", "Removed from sale"), with "Open on
+  Avito" and "Chat in Avito" links, and "Other conversations" lists everyone who asked about that listing.
+- Avito conversations show the listing thumbnail and title under the buyer's name in the list.
+- Replies sent from the Avito app also appear in the conversation, marked "Replied in the Avito app".
+
+### Changed
+
+- Sign-in and sign-up are one step: enter your email, and if there's no account yet you're offered to create
+  a workspace. The separate "Create a workspace" link is gone.
+
+### Fixed
+
+- The language picker on the sign-in page no longer slides sideways when it opens.
+- On phones the Send button fits inside the reply box.
+
 ## 1.0.0 — 2026-10-18
 
 The first versioned release of the app.
