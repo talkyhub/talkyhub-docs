@@ -26,7 +26,10 @@ The first release of the TalkyHub web app.
 - **Conversations:** "Mine · Unassigned · All" tabs with counts and **smart search** — type in words ("avito
   waiting", "mine urgent", "#2340", "@oleg") and the field turns them into filters.
 - **Replies:** canned responses with "/", private notes for agents, attachments, a signature. Customer emails
-  show with formatting and images; start a new email to a customer right from the list.
+  show with formatting and images; start a new email to a customer right from the list. An unsent reply is kept
+  as a draft, and the editor expands over the whole chat for long messages.
+- **Triage in the chat:** take it, assign, priority and labels sit above the reply box while a conversation is
+  unassigned or still unanswered.
 - **Contacts:** photos from Telegram, VK and MAX (or uploaded), links to messenger profiles, merge duplicates,
   message edit history.
 - **Quoted replies** in Telegram, MAX and VK; a message that wasn't sent shows the channel's reason.
