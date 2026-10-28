@@ -30,8 +30,9 @@ The first release of the TalkyHub web app.
   show with formatting and images; start a new email to a customer right from the list. An unsent reply is kept
   as a draft, and the editor expands over the whole chat for long messages. The greeting, resolution message and
   email subject come with ready-made examples, shown as the customer will read them.
-- **Triage in the chat:** take it, assign, priority and labels sit above the reply box while a conversation is
-  unassigned or still unanswered.
+- **The conversation's controls in its header:** take it, assignee, team, priority as icons with tooltips, and
+  labels. A "Chat | Client" switch opens the client view: ways to reach them, your fields, notes, SLA and past
+  conversations. Messages show who wrote them and their role; yours say "You".
 - **Contacts:** photos from Telegram, VK and MAX (or uploaded), links to messenger profiles, merge duplicates,
   message edit history.
 - **Quoted replies** in Telegram, MAX and VK; a message that wasn't sent shows the channel's reason.
