@@ -20,7 +20,8 @@ The first release of the TalkyHub web app.
   conversation — and **WhatsApp Business (beta)** through 360dialog or the Cloud API: the 24-hour reply window,
   approved templates, a new conversation by phone number. The **API channel** connects any messenger or app of your own.
 - **Website widget:** the preview is the same widget your visitors see and updates as you edit; copy the embed
-  snippet in one click.
+  snippet in one click. The pre-chat form can also ask your own contact fields (say, “Contract number”), saved on
+  the contact; the widget's language is auto, Russian or English.
 - **Home** — what needs attention: unassigned conversations, those waiting for a reply and yours; who has
   waited longest; notifications; channels that aren't receiving messages.
 - **Conversations:** "Mine · Unassigned · All" tabs with counts and **smart search** — type in words ("avito
