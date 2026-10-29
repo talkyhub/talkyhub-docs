@@ -25,7 +25,8 @@ The first release of the TalkyHub web app.
 - **Home** — what needs attention: unassigned conversations, those waiting for a reply and yours; who has
   waited longest; notifications; channels that aren't receiving messages.
 - **Conversations:** "Mine · Unassigned · All" tabs with counts and **smart search** — type in words ("avito
-  waiting", "mine urgent", "#2340", "@oleg") and the field turns them into filters.
+  waiting", "mine urgent", "#2340", "@oleg") and the field turns them into filters. Order the list by activity
+  (where something just happened comes first), newest first, or who has waited longest.
 - **Replies:** canned responses with "/", private notes for agents, attachments, a signature. Customer emails
   show with formatting and images; start a new email to a customer right from the list. An unsent reply is kept
   as a draft, and the editor expands over the whole chat for long messages. The greeting, resolution message and
